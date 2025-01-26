@@ -40,7 +40,7 @@ int main(){
     case 2:
         cout << "Enter the marks obtained in OOP: ";
         cin >> marks;
-        if (marks>0){
+        if (marks>0 && marks<=100){
             totalMarks += marks;
         }
         else{
@@ -50,7 +50,7 @@ int main(){
      case 3:
         cout << "Enter the marks obtained in DLD: ";
         cin >> marks;
-        if (marks>0){
+        if (marks>0 && marks<=100){
             totalMarks += marks;
         }
         else{
@@ -60,7 +60,7 @@ int main(){
      case 4:
         cout << "Enter the marks obtained in ICT: ";
         cin >> marks;
-        if (marks>0){
+        if (marks>0 && marks<=100){
             totalMarks += marks;
         }
         else{
