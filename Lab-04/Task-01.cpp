@@ -17,6 +17,7 @@ class Book{
         this->author=author;
         this->price=price;
     }
+//Shallow copy constructor
     Book(Book& obj){
         title=obj.title;
         author=obj.author;
